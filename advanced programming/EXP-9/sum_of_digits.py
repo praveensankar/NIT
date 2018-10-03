@@ -8,7 +8,13 @@ while True:
     while temp!=0:
         res=res+temp%10
         temp=temp//10
-    print("result is :",res)
+
+    res1=0
+    tmp=res
+    while res!=0:
+        res1=res1+res%10
+        res=res//10
+    print("result is :",tmp,res1)
 
 
 
